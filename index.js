@@ -60,7 +60,7 @@ $("#hero h1").textillate({
 gsap.to(".fader", {
   scrollTrigger: {
     trigger: '#down',
-    markers: true,
+    // markers: true,
     start: 'top 7%',
     toggleActions: 'play pause resume reverse',
   },
